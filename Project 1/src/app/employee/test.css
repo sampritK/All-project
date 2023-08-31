@@ -1,0 +1,6 @@
+h2{
+    background-color: rgb(16, 16, 187);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}

@@ -1,0 +1,9 @@
+.slider{
+    width: 200px;
+}
+
+.slider a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: #0dd543;
+}

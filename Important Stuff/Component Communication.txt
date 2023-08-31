@@ -1,0 +1,39 @@
+11:14 PM 7/17/2023
+--------------Component Communication--------------
+
+2. How do you use Angular component
+     -> Can we pass custom selector name? -> Yes of course
+     -> Use the select tag as directive
+3. How do you use Angular component from different module?
+     -> Users Module
+       -> component -> list-users
+     - Import the custome/newly created module into App Module
+     - Export the respective components that we want to
+       use outside of the module
+
+4. Angular components communication   
+   -> @Input and @output directive
+   -> Using services 
+
+5. 1 Input 
+     ->  parent -> sending data to child 
+   2 Outputs
+     -> child -> parent
+  -> we need to pass data from parent using [variableName]
+  -> Same needs to be defined in the child component as @Input
+
+how many ways we can share data between two components-
+-> 1. parent-child 
+-> 2. child - parents
+-> 3. through service
+-> 4. view child
+
+*EventEmitter =>a component defines two output 
+properties that create event emitters. 
+When the title is clicked, the emitter emits an open or 
+close event to toggle the current visibility state.
+
+----Json Filter----
+* This filter can be useful when debugging
+ our applications.
+

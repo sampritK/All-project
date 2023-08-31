@@ -1,0 +1,27 @@
+what is ng module?
+Ans-
+What is service in Angular?
+Ans-
+What is CSS position property?
+Ans- The CSS position property defines the position of an element in a document. This property works with the left, right, top, bottom and z-index properties to determine the final position of an element on a page. There are five values the position property can take.
+
+Why we use CSS flex in our web  page?
+Ans- the reason you'd choose to use flexbox is because you want to lay a collection of items out in one direction or another. As you lay out your items you want to control the dimensions of the items in that one dimension, or control the spacing between items.
+
+What is CSS Box Module?
+Ans-
+what is css grid and flexbox?
+Ans-CSS Grid and Flexbox are layout models that share similarities and can even be used together. The main difference is that you can use CSS Grid to create two-dimensional layouts. In contrast, you can only use Flexbox to create one-dimensional layouts.
+
+what is the use of doctype in Html 
+
+What is HTML and its syntax?
+Ans- All HTML documents must start with a document type declaration: <!DOCTYPE html> . The HTML document itself begins with <html> and ends with </html> . The visible part of the HTML document is between <body> and </body> .
+
+
+A Successful Chandrayaan Yatra of India_
+CHANDRAYAAN-3
+THE FIRST COUNTRY TO SOFT LAND ON THE 
+SOUTH POLE OF THE MOON.
+INDIA SCRIPTS HISTORY
+

@@ -1,0 +1,72 @@
+<p>form1 works!</p>
+<!-- <div>{{ti}}</div>data binding -->
+
+<form [formGroup]="addForm1Form">
+    <table>
+        <tr>
+            <div class="form-group">
+                <label>
+                    form Name
+                </label>
+                <input type="text" formControlName="form1Name" (keyup)="trackFormName($event)">
+                <div class="text-danger" *ngIf="addForm1Form.get('form1Name')?.errors?.['required'] 
+       && addForm1Form.get('form1Name')?.touched">form name is Required </div>
+                <div class="text-danger"
+                    *ngIf="addForm1Form.get('form1Name')?.errors?.['minlength'] && addForm1Form.get('form1Name')?.touched">
+                    form name should be minimum of 10 charecter is Required </div>
+                <div class="text-danger"
+                    *ngIf="addForm1Form.get('form1Name')?.errors?.['maxlength'] && addForm1Form.get('form1Name')?.touched">
+                    form name should be maximum of 20 charecter is Required </div>
+
+            </div><br>
+        </tr>
+        <tr>
+            <div class="form-group">
+                <label>
+                    form Type
+                </label>
+                <input type="text" formControlName="formType">
+                <div class="text-danger"
+                    *ngIf="addForm1Form.get('formType')?.errors?.['required'] && addForm1Form.get('formType')?.touched">
+                    form
+                    Type is Required </div>
+            </div> <br>
+        </tr>
+        <tr>
+            <div class="form-group">
+                <label>
+                    Form Description
+                </label>
+                <textarea formControlName="formDescription"></textarea>
+            </div>
+        </tr>
+       <!-- <tr>
+            <div class="form-group" formArrayName="users">
+              <label>Users</label>
+              <div *ngFor="let item of users.controls; let i=index">
+                  <input type="text" [formControlName]="i">
+                </div>
+              </div>
+            
+        </tr> -->
+
+
+        <tr>
+            <div class="form-group" formArrayName="users">
+              <label>Users</label>
+              <!-- <div *ngFor="let item of users.controls; let i=index;" [formGroupName]="i"> -->
+              <div *ngFor="let item of users.controls;let i=index;" [formGroupName]="i">
+                  <input type="text" formControlName="name">
+                  <input type="text" formControlName="age">
+                  <input type="text" formControlName="dept" (blur)="assignDept(i)">
+                  <button (click)="removeUser(i)">Remove</button>
+                </div>
+              </div>
+            
+        </tr>
+
+    </table>
+    <button (click)="addForm1()" [disabled]="!addForm1Form.valid">Add Form Type</button>
+    <button (click)="resetform()">Reset Form</button>
+    <button (click)="addUser()">Add new Users</button>
+</form>

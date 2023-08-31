@@ -1,0 +1,54 @@
+<mat-toolbar color="warn">
+    <span>TalentMicro</span>
+    <span class="example-spacer"></span>
+        <button mat-raised-button (click)="addUser()">
+          New USER
+        </button>
+  </mat-toolbar>
+
+  <div class="container-fluid mb-3">
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">name</th>
+            <th scope="col">username</th>
+            <th scope="col">email</th>
+            <th scope="col">address</th>
+            <th scope="col">phone</th>
+            <th scope="col">website</th>
+            <th scope="col">company</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let item of data">
+          <tr>
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.username}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.address.street}}, {{item.address.suite}}, 
+              {{item.address.city}}, {{item.address.zipcode}}, 
+              {{item.address.geo.lat}}, {{item.address.geo.lng}}</td>
+              <td>{{item.phone}}</td>
+              <td>{{item.website}}</td>
+            <td>{{item.company.name}}, {{item.company.catchPhrase}}, {{item.company.bs}}</td>
+            
+            
+          </tr>
+          
+        </tbody>
+
+        <tr>
+          <td>{{storedSessionData.name}}</td>
+          <td>{{storedSessionData.username}}</td>
+          <td>{{storedSessionData.email}}</td>
+          <td>{{storedSessionData.phone}}</td>
+          <td>{{storedSessionData.company}}</td>
+        </tr>
+
+        
+      </table>
+  </div>
+
+
+  

@@ -1,0 +1,36 @@
+~~~~~~~~~~~MANGO DB~~~~~~~~~
+database => inside the data base -> collection => inside the collection => Documents
+
+what is a collection:-
+Collection is a group of  MongoDB Documents.
+*Every document in MongoDB unique value via key
+"-id"
+*Document in MongoDB is a set of  "key-value" Pairs
+~~~RDBMS - Relational Database Management System
+
+List all databases in MongoDb CMND. - show databases
+Command- use <database name> seletct the database workspace as current working DB.
+DB CMND- show you the database you are working currently in
+for delete database - use db.dropDatabase();
+
+TO     CREAT     A       NEW	COLLECTION -:
+- db.createCollection("<name of collection">)
+DROP THE COLLECTION NAME:-
+db.collectionName.drop().
+
+Data type:-
+JSON - json based database usually return query result which can be effortlessly parsed, having modest or nix tansformation, straightforwardly by use of Javascript along with most well-liked programming languages.
+
+*In the case of MongoDb, data represintinon is done in JSON document formate,but here the JSON is binary-encoded, which is termed as BSON.
+
+*BSON is the extended version of the JSON model,which is providing adiditional data types, makes perfomance to be component to the encode and decode in diverse languages and ordered fieleds.
+
+what are the data type is not supported by json -
+- data
+- timestamp
+- object Id
+Insert Documents:-
+
+	 		
+
+

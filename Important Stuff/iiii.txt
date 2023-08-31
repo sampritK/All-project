@@ -1,0 +1,18 @@
+RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code.
+
+So, what is the difference between authentication and authorization? Simply put, authentication is the process of verifying who someone is, whereas authorization is the process of verifying what specific applications, files, and data a user has access to.
+
+const apiKey = 'fzzEAqmVsALrgmYvNQ7brG4G9GCNAtNU';
+const apiUrl = 'https://api.zebra.com/v2/data/devices/batteries/analytics/visibility/critical-battery-events';
+      const headers = new HttpHeaders({
+        'Authorization': `${apiKey}`
+      });
+      this.http.get(apiUrl, { headers }).subscribe(
+        (data) => {
+          this.response = data;
+        },
+        (error) => {
+          console.error('Error:', error);
+          this.response = 'Error occurred while fetching data
+Take a look at it, no error is coming, yet the data is not visible.
+

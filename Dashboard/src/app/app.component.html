@@ -1,0 +1,51 @@
+
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Home</a>
+    <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a style="color: aqua;" routerLink="home" class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: aqua;" routerLink="dashboard" class="nav-link" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: aqua;" routerLink="report" class="nav-link active" aria-current="page" href="#">Reports</a>
+        </li>
+        
+      </ul>
+      <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+      <a routerLink="login" style="display: flex; text-decoration: none; font-weight: 600;">
+        <button >Login</button>
+          <img src="assets/logo.png" style="width: 70px;height: auto;" alt="Logo">
+      </a>
+    </div>
+  </div>
+  <!-- <app-root></app-root> -->
+</nav>
+
+<div class="control-section">
+  <div align='center'>
+      <ejs-chart style='display:block;' [chartArea]='chartArea' [width]='width' align='center' id='chartcontainer' [primaryXAxis]='primaryXAxis'
+          [primaryYAxis]='primaryYAxis' [title]='title' [tooltip]='tooltip' (load)='load($event)' [legendSettings]='legend'>
+          <e-series-collection>
+              <e-series [dataSource]='data' type='Column' xName='Country' yName='GoldMedal' name='Gold' width=2 [marker]='marker' columnSpacing='0.1' tooltipMappingName='MappingName'> </e-series>
+              <e-series [dataSource]='data' type='Column' xName='Country' yName='SilverMedal' name='Silver' width=2 [marker]='marker' columnSpacing='0.1' tooltipMappingName='MappingName'> </e-series>
+              <e-series [dataSource]='data' type='Column' xName='Country' yName='BronzeMedal' name='Bronze' width=2 [marker]='marker' columnSpacing='0.1' tooltipMappingName='MappingName'> </e-series>
+          </e-series-collection>
+      </ejs-chart>
+  </div>
+  <div style="float: right; margin-right: 10px; margin-top: -5px">Source:
+      <a href="https://www.gov.uk/" target='_blank'>www.gov.uk</a>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

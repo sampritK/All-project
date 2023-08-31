@@ -1,0 +1,11 @@
+
+
+
+
+
+what is pipe why r u using pipes in Angular?
+
+how angular application will start ?
+Ans- Here, the bootstrap method starts the Angular application. It refers to AppModule, which looks into the app folders. You can see in the "app. module" file that a bootstrap array which is basically a list of all the components analyzes the index.
+
+

@@ -1,0 +1,23 @@
+Angular component lifecycle---->
+
+   -> Angular component goes through a seriess of state
+ thoes are called life cycle hooks
+
+*Types of lifecycle hooks
+  -> ngOnInit -> On initalization of the component
+           -> http call and write subscribe in ngOnInit
+  -> ngOnChanges-> Listen to changes in data/form/state/
+    value chanege.
+  -> ngDoCheck
+       -> ngAfterContentInIt-> if you want to wait till
+initialized
+       -> ngAfterContentCheack
+       -> ngAfterViewInit
+       -> ngAfterViewChecked
+   -> ngOnDestroy- when you want to exit the component
+     -> Unscribe the subcription
+
+* How many ways you can use component template?
+    -> templateUrl
+    -> template in the component itself
+--------Angular Material Design Layout-------

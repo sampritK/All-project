@@ -1,0 +1,32 @@
+---------Observable Subscribe-----------
+{Its a sequence of data that is emitted asynchronously most
+the time over period of time}
+*Observable provide support for passing messeages between parts
+of our Application..
+*They are used Frequently in Angular and are technique for 
+event handling, asynchronous programming,and handling multiple
+values.
+*An obsrevable can deliver multiple values of any type-literals,
+messages, or events, depending on the context
+
+* Routing
+* Form Value Changes
+* HTTP
+
+----Observer----
+* When we create an Observable,we keep track on the observable
+using Observer.
+*Observer is continuously listening to Observable.
+* we can control when to to start and end listening to the
+Observable using Observer.
+* Observer has 3 methods that we can use
+  The observer has 3 methods - next(),error() and complete()
+
+1. How to create observable
+   1.1 RxJS operator "of"
+        -> convert any array into observable
+   1.2 new Observable
+-----Subscribe------
+* Listen to the data that is being sent by the observable and 
+then maybe we can do our logical proceesing or updating or 
+working with but that particular data that we get

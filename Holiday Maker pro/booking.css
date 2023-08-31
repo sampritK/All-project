@@ -1,0 +1,157 @@
+body{
+    background-color: whitesmoke; 
+}
+.header{
+    height:40px;
+}
+.content {
+    background-color: green;
+    min-height: 500px;
+    color: brown;
+}
+.main-content{
+    min-height: 500px;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid white;
+}
+.footer{
+    height: 40px;
+}
+.quick7{
+    color: black;
+    background-color: yellow;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    display: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: 16px;
+}
+.quick15{
+    padding: 30px;
+    background: #f6f6f6;
+}
+/* p{
+    /* display: block; 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.quick5{
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+}
+.text-primary {
+    color: #ffd800;
+    font-size: 25px;
+}
+.quick9{
+    color: white;
+    font-size: 23px;
+}*/
+ 
+.quick7 {
+    color: black;
+    background-color: #ffd800;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    width: 50%;
+}
+
+.quick7:hover {
+    color: black;
+    background-color: #ffd800;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 16px;
+    width: 50%;
+    }
+.quick17 {
+    
+        color: white; 
+        font-size: 16px;
+        font-family: calibri;
+        text-decoration: none;
+        
+}
+.quick5{
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
+.text-primary {
+    color: #ffd800!important;
+    font-size: 25px;
+}
+.quick9{
+    color: white;
+    font-size: 23px;
+}
+.text-primary .mb-4{
+    color: #ffd800;
+}
+.text-dark{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

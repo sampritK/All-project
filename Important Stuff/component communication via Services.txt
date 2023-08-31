@@ -1,0 +1,9 @@
+------component communication via Services--------
+
+* constructor(private http: HttpClient) { }
+
+getUsers(){
+  this.http.get('http://your-api-endpoint')
+}
+
+<div onmouseover="this.style.backgroundColor='yellow'"> {{ user | json }}</div>

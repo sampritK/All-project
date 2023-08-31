@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "samprit kanungo",
+      "description": "ghhgjhj",
+      "price": "12",
+      "quantity": "12",
+      "id": 2
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "id": 3
+    }
+  ]
+}

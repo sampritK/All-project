@@ -1,0 +1,80 @@
+<!-- <button routerLink="home">Home</button>&nbsp;
+<button routerLink="dashboard">Dashboard</button>&nbsp;
+<button routerLink="report">Reports</button>&nbsp; -->
+
+
+    
+
+    <!-- <div class="row py-3 px-lg-5">
+        <div class="col-lg-4">
+            
+            
+        </div> -->
+        <!-- <div class="col-lg-8 text-center text-lg-right">
+                <div class="d-flex ">
+                    <a href="" style="display: flex;">
+                        <img src="assets/logo.png" style="width: 100px;height: auto;" alt="Logo">
+                    </a>
+                    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                        <li class="nav-item" role="presentation">
+                          <button routerLink="home" class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button routerLink="dashboard" class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Dashboard</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button routerLink="report"  class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Reports</button>
+                        </li>
+                      </ul>
+
+                </div>
+            </div> -->
+
+            
+          
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <!-- <a class="navbar-brand" href="#">Home</a>
+                  <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button> -->
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a style="color: aqua;" routerLink="home" class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a style="color: aqua;" routerLink="dashboard" class="nav-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="nav-item">
+                        <a style="color: aqua;" routerLink="report" class="nav-link active" aria-current="page" href="#">Reports</a>
+                      </li>
+                      
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    <a routerLink="login" style="display: flex; text-decoration: none; font-weight: 600;">
+                      <button >Login</button>
+                        <img src="assets/logo.png" style="width: 70px;height: auto;" alt="Logo">
+                    </a>
+                  </div>
+                </div>
+                <!-- <app-root></app-root> -->
+              </nav>
+        
+
+              
+            <style>
+                .control-section {
+                    min-height: 450px;
+                }
+            </style>
+        
+    
+
+
+
+
+<router-outlet></router-outlet>

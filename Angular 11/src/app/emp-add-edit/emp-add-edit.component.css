@@ -1,0 +1,13 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+.row{
+    display: flex; 
+    column-gap: 10px;
+
+}
+.actions{
+    padding: 0px 25px 20px;
+    column-gap:10px ;
+    button{
+        flex: 1;
+    }
+}

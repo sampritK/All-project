@@ -1,0 +1,72 @@
+Implementation of http get Method====>>
+
+* we need to pass the URL for Get method
+
+* we will get a observable
+
+=>The Hypertext Transfer Protocol (HTTP) is designed to 
+enable communications between clients and servers.
+
+HTTP works as a request-response protocol between a client 
+and server.
+
+Example: A client (browser) sends an HTTP request to the 
+server; then the server returns a response to the client. 
+The response contains status information about the request 
+and may also contain the requested content.
+
+The GET Method
+GET is used to request data from a specified resource.
+
+GET requests can be cached
+GET requests remain in the browser history
+GET requests can be bookmarked
+GET requests should never be used when dealing with sensitive data
+GET requests have length restrictions
+GET requests are only used to request data (not modify)
+
+ when sending data, the GET method adds the data to 
+the URL; and the length of a URL is limited 
+(maximum URL length is 2048 characters)
+
+
+
+Http POST methode-> whenever we are trying to create a new 
+resource at the backend so we use post Method
+eg: login, crate new user,create new lead, create new contact,
+anything that you create or add new will most likely include
+http post
+
+
+Http DELETE Methode->
+
+The DELETE method requests that the origin server remove 
+the association between the target resource and its current
+ functionality. . i.e. HTTP DELETE method deletes the 
+specified resource at the origin of server.
+
+Http delete - Use Cases
+* simple HTTP DELETE methode call
+* DELETE Methode call with Headers
+* DELETE Methode call with Params -> The Angular ActviatedRoute 
+also maintains the Route Parameters in the Params array. 
+The Params array is a list of parameter values, 
+indexed by name.
+* Delete Methode call with Type Casting
+
+Http Interceptors-> 
+ Http interceptors intercept and handles any http request or
+http response most interceptors transform the outgoing request
+before passing it to the next interceptor(whenever we try to
+make a request  to the backend apis or server we pass details
+like authentication token username passwords etc)
+*it is also rare but valid for an interceptor to return 
+multiple responses on the event stream for a single request.
+
+GITHUB->
+GitHub is a code hosting platform for version control and 
+collaboration. It lets you and others work together 
+on projects from anywhere.
+
+
+

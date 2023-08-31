@@ -1,0 +1,2 @@
+API (Application Programming Interface) is a software intermediary that allows two applications to communicate with each other. Every application you are using on your phone involves API. When you are using an application on your cell phone, the application first gets connected to the internet and sends data to the server. After that data is retrieved at a server and it interprets the data, performs an action to convert it into a readable format and sends the data back to the phone. This is done because of the API.
+

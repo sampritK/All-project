@@ -1,0 +1,14 @@
+~~~~~~~~~ng-container~~~~~~~~~
+*In Angular, You cannot use more than one template binding on
+an element.
+*This approach helps in removing the redundant div element to
+the DOM.
+* Think of ng-container as a external parent elemrnt used for wrapping child elements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                 NG-CONTENT        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What is Content Projection?
+* Content projection is a pattern in which you insert, or project,
+the content you want to use inside another component.
+*For exampl, you could have a card component that accepts content provide by another component.
+WE DO CONTENT PROJECTION USING <ng-content>

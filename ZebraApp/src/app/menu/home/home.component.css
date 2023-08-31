@@ -1,0 +1,15 @@
+/* section  {
+    background: url("https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+    background-size: cover;
+    background-position: center center;
+} */
+
+.hero{
+    background-image:url('https://img.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg?w=360');
+    background-size: cover;
+    background-position: center center;
+    height: 540px;
+}
+.title {
+    color: blanchedalmond;
+}

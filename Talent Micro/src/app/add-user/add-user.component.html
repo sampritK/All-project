@@ -1,0 +1,49 @@
+<div mat-dialog-title>
+    <h1>
+        NEW USERS
+    </h1>
+    </div>
+    <form [formGroup]="empForm" (ngSubmit)="onFormSumbit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>name</mat-label>
+                <input matInput type="text" placeholder="Ex.Samprit" formControlName="name">
+              </mat-form-field>
+              <mat-form-field appearance="outline">
+                <mat-label>username</mat-label>
+                <input matInput type="text" placeholder="Ex. Kanungo" formControlName="username">
+              </mat-form-field>
+              <mat-form-field appearance="outline">
+                <mat-label>Phone</mat-label>
+                <input matInput type="text" placeholder="Ex. 0123456789" formControlName="phone">
+              </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>email</mat-label>
+                <input matInput type="email" placeholder="Ex.abc@gmail.com" formControlName="email">
+              </mat-form-field>
+              
+        </div>
+    
+        
+    
+        <div class="row">
+            
+              <mat-form-field appearance="outline">
+                <mat-label>Comapany</mat-label>
+                <input matInput type="text" placeholder="Ex. Google" formControlName="company">
+              </mat-form-field>
+            </div>
+              <div class="row">
+              
+        </div>
+          
+    </div>
+    <div mat-dialog-actions class="actions">
+    <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+    <button mat-raised-button color="primary">{{data ? 'Update': 'Save'}}</button>
+    </div>
+    </form>
+    

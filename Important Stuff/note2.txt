@@ -1,0 +1,4 @@
+--------Two-way Data Binding---------
+  ->> from template or view to component
+  -<< back from component to template
+1- propert binding and even binding.

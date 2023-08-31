@@ -1,0 +1,16 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~ViewChild~~~~~~~~~~~~~~~~~~~~
+
+The @ViewChild decorator allows us to inject into a component class references to elements used inside its template, that's what we should use it for. Using @ViewChild we can easily inject components, directives or plain DOM elements.
+
+DOM````````~~~~~~~~
+
+AngularJS has directives for binding application data to the attributes of HTML DOM elements.
+
+What is AngularJS DOM? DOM stands for Document Object Model. AngularJS's directives are used to bind application data to the attributes of HTML DOM elements.
+
+CRUD is an acronym in computer programming that stands for the CREATE, READ, UPDATE, DELETE operations that can be performed against a data collection
+
+
+
+
+

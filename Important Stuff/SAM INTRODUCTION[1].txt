@@ -1,0 +1,35 @@
+Good morning sir/madam,
+First of All, Thank you for giving me this opportunity to introduce my self.
+ my name is Samprit Kanungo, basically I am from odisha but right now I am living in Hyderbad. 
+
+I have completed my B.tech from GITAM Bhubaneswar as well as schooling from SSH in odisha.
+
+After completing my B.tech I joined an organization called WEBWHEEL TECHNOLOGIES. Initialy First
+ 4 months they gave me the training and then they have assigned me a project.
+The project name is Practice Management (PM). 
+The project is basically from client tracking, to efficient scheduling, deadline calendars, invoicing and an in-built CRM, it provides you with a suite of advanced tools to manage every aspect of running your practice and make smarter business decisions. 
+Our team size is 10.
+In that project there is a page called reports page where I am working. In that page there is the lists are available of all CA's. If we want to add any new CA profile then we can add through a from and add details of that profile. After adding there is a table where we can see all the details of all CA's. If we want to update we can update there details and we can even delete the profile also.
+So, In that project my resposibilities are creating HTML pages from scratch, adding colors through CSS or Bootstrap as per the requirement and api integration to add functionalities and get data dynamically.
+
+ It’s from client tracking, to efficient scheduling, deadline calendars, invoicing and an in built 
+CRM(Customer relationship management), it provides you with a suite of advanced tools to manage every aspect of running your 
+practice and make smatter business decisions..
+
+In this project my resoponsibility is Development of HTML pages from scratch.
+ Integration of HTML pages into angular.
+ Service Integration to get data dynamically.
+
+It’s from allow the administrator of edit and find out the personal details of a student and 
+allows the student to keep up to date his profile. And also provide some advance feature Exam 
+time table, Allocate proctor, Allocate class room, Student grading System. It’ll also facilitate 
+keeping all the records of students, such as their id, name mailing address, dob etc.
+
+In this project my resoponsibility is Development of HTML pages from scratch.
+ Integration of HTML pages into angular.
+ Service Integration to get data dynamically.
+
+
+This is all about myself.
+
+Thank you.

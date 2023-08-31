@@ -1,0 +1,28 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+.app-container{
+  min-height: 500px;
+  width: 100%;
+  padding-top: 60px;
+  display: flex;
+}
+
+.app-container{
+  margin-left: 50px;
+}
+/* * {
+  display: flex; flex-direction: column; align-items: center; 
+
+} */
+.example-spacer{
+  flex: 1 1 auto;
+}
+
+/* .main-body{
+  display: flex;
+  padding-top: 20px ;
+  margin: 0 auto;
+  max-width: 1248px;
+  
+
+} */
+

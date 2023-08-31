@@ -1,0 +1,32 @@
+---------Reactive Form->statusChanges()--------
+
+1. we can subscribe to status changes happpening 
+in the from at any time
+2. statusChanges is yet another important property 
+of FromControl,FromGroup
+3.statusChanges returns an Observable. we need to 
+Subscribe to the Observable to read the value.
+
+---------Reactive Forms -> Form Array ------------
+1:37 PM 7/15/2023
+           FormArray
+               Form
+                 Add Address ->
+*FormArray aggregates the values of the "child" 
+FormControl into an Array
+*The status of the FormArry is calculated by reducing
+the statuses of it's children.
+*If any one of the controls is invalid,the entire arry
+ becomes invalid.
+*The status of the FormArray is calculated by reducing
+the statuses of its children.
+*Dynmically adding FormControl to Our Form
+* anything that you take multiple form controls it
+become an Formarry                 
+* imagine you have a form where you want user to add 
+  Multiple addresses
+
+* IF we go to instragram or facebook we 
+can add multiple fields like websites, you click on 
+add website it will give you a input text box where
+we can add one more website link.

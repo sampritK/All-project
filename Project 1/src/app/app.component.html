@@ -1,0 +1,210 @@
+ < <div style="text-align: center;"> 
+
+  <!-- <h1 style="font-weight: bolder;">{{ title}} </h1>
+  <a routerLink="employee" style="font-size: larger;">Employee</a>
+
+  <div style="font-size: xx-large;font-weight: bolder;">{{pageHeading}}</div>
+
+  <p [style.color]="txtcolorval">{{ pageCount }}</p>
+
+  <div *ngIf="isUserLoggedIn">
+
+    <img [src]="imgUrl" />
+
+    <img src="international-banner.jpg">
+
+    <div [innerHTML]="userObject.FirstName"></div>
+
+  </div>
+
+  <div style="color: aliceblue; background-color: black;" *ngFor="let contact of contacts">
+    {{ contact.FirstName}} {{ contact.LastName}} {{ contact.ContactId}}
+  </div>
+
+  <table style="align-items: center; display: flex; flex-direction: column;">
+    <tr [style.color]="txtcolorval">
+      <th>ContactId</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+    </tr>
+    <tr style="color: aliceblue; background-color: black;" *ngFor="let contact of contacts">
+      <td [title]="contact.ContactId">{{ contact.ContactId}}</td>
+      <td [title]="contact.FirstName">{{ contact.FirstName}}</td>
+      <td [title]="contact.LastName">{{ contact.LastName}}</td>
+    </tr>
+  </table>
+
+
+  <table style="font-weight: bolder; color: beige; background-color: blue;">
+    <tr>
+      <td>ContactId</td>
+      <td>Contact Name</td>
+      <td>Contact email</td>
+    </tr>
+    <tr>
+      <td [attr.colspan]="colval">ContactId</td>
+      <td>Contact email</td>
+    </tr>
+  </table>
+
+
+  <button (click)="sayHello()">Click to say Hello</button>
+
+  <div (mouseover)="highlightBGcolor(1, 2, 4)">Highlight me please</div>
+
+  <input type="text" (focus)="inputBox();"> -->
+  
+    <!-- Built-in Pipes -->
+    <!-- <input [(ngModel)]="username" />
+
+    <div *ngIf="month > 10">{{ username }}</div>
+
+    <ul>
+      <li data-car-type="GTC">Ferrari</li>
+      <li data-car-type="x5">BMW</li>
+      <li data-car-type="Benz E-Class">Mercedes</li>
+    </ul>
+    <h1>Built-in Pipes</h1>
+  </div> {{ lowerCaseExample | lowercase }} <div>
+
+  </div> {{ upperCaseExampl | uppercase }} <div>
+
+  </div> {{ DateExample | date }} <div>
+
+    <div> {{ jsonExample | json }} </div>
+
+    <div> {{ currencyExample | currency }} </div>
+
+    <div> {{ percentExample | percent }} </div> -->
+
+    <!-- Angular Parametrized pipes -->
+
+    <!-- <div> {{ currencyExample | currency : 'INR' }} </div>
+
+  </div> {{ DateExample | date : 'long' }} <div>
+
+    <div> {{ percentExample | percent: '3.1-0' }} </div>
+
+   <h1> Chaining Pipes </h1> 
+   
+    <!-- Using multiple pipes on a data input is called as Chaining Pipes -->
+
+  <div> {{ DateExample | date | uppercase }} </div>
+
+
+   <!-- Angular  Router  -->
+
+   <!-- Router Outlet -->
+
+   <h1 style="font-size: xx-large; font-weight: bolder;color: #5cda13;">This is Angular Application</h1>
+   
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+   <!-- <h1>Parent component</h1>  -->
+
+
+  <!-- <input type="radio" name="radio1" (click)="changeValue()">True -->
+      <!-- <input type="radio" name="radio1" (click)="changeValue()">False -->
+    
+
+   <!-- <app-add-contact></app-add-contact> -->
+
+   <!-- <app-student></app-student> -->
+  </div>
+
+
+  <!-- <div [ngSwitch]="name">
+          <div *ngSwitchCase="'sam'">Hello Sam</div>
+          <div *ngSwitchCase="'dham'">Hello dham</div>
+          <div *ngSwitchCase="'dhand'">Hello dhand</div>
+          <div *ngSwitchCase="'bhed'">Hello bhed</div>
+          <div *ngSwitchCase="'Mukti'">Hello Mukti</div>
+          <!-- <div *ngSwitchDefault>no data matched</div> -->
+  <!-- </div> -->
+
+
+
+  <!-- <div>
+     <ul>
+      <li *ngFor="let contact of contacts; index as i; first as F; last as L">
+        <div *ngIf="F" style="background-color: yellowgreen;">this is first record</div>
+        <div>
+        {{ i }}  {{ contact.FirstName }} {{ contact.LastName }}
+        </div>
+        <div *ngIf="L" style="background-color: #ba9ee1;">this is Last record</div>
+
+      </li>
+     </ul>
+     <p>New Table with Even and Odd</p>
+     <ul>
+      <li *ngFor="let contact of contacts; even as e; odd as o">
+        <div *ngIf="e" style="background-color: yellowgreen;">
+        <div>
+         {{ contact.FirstName }} {{ contact.LastName }}
+        </div></div>
+        <div *ngIf="o" style="background-color: #ba9ee1;">
+        {{ contact.FirstName }} {{ contact.LastName }}
+      </div>
+      </li>
+     </ul>
+
+     <div [ngClass]="'c1'">This is ngClass</div>
+     
+     <div [ngClass]="'c1 c2'">This is ngClass multiple classes</div>
+
+     <div [ngClass]="Stygian">This is ngClass multiple classes Stygian</div>
+
+     <div [ngClass]="conditionClsproop === 'c4'? 'c4' : 'c5'">This is ngClass multiple classes sewellel</div>
+     <p>This is through object </p>
+     <div [ngClass]="conditionClsproop === 'c4'? 'c4' : 'c5'">This is ngClass using object sewellel</div>
+
+     <div [ngClass]="{c4: true, c5: true}">This is ngClass using object</div>
+    <br><br> -->
+  <!-- <h1 style="display: flex ; flex-direction: column; align-items: center;font-size: xx-large;font-weight: bolder;" >Data Binding</h1> -->
+  -->
+
+
+
+  <!-- <div *ngIf="success_msg; then updated_msg; else error_msg" style="background-color: yellow;" >
+    user added successfully
+  </div>
+
+  <ng-template #updated_msg>
+   user was updated
+  </ng-template>
+
+  <ng-template #error_msg>
+    user was not added
+   </ng-template> -->
+
+   <!-- <div style="display: flex; justify-content: space-between; 
+   flex-direction: column;">
+    <!-- <div> -->
+    <!-- <p>trdesrdtf</p>
+    <p>trdesrdtf</p>
+    <p>trdesrdtf</p>
+    <p>trdesrdtf</p>
+    <p>trdesrdtf</p>
+
+   </div> -->
+  
+  <div> {{ DateExample | date : 'long' }} </div>
+   <!-- <app-client></app-client> -->
+  <!-- <app-payments></app-payments> -->
+  <router-outlet></router-outlet>
+  <router-outlet name= "addLoan"></router-outlet>
+  <router-outlet name = "editLoan"></router-outlet>

@@ -1,0 +1,10 @@
+.navbar{
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+ul li .nav-item a :hover {
+    color: blue !important;
+}

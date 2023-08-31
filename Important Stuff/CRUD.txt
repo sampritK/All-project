@@ -1,0 +1,19 @@
+json-server --watch db.json
+promotaion and combination
+
+CRUD refers to the four basic operations a software application should be able to perform – Create, Read, Update, and Delete.
+
+In such apps, users must be able to create data, have access to the data in the UI by reading the data, update or edit the data, and delete the data.
+
+CRUD OPERATION	HTTP REQUEST METHOD
+Create	                                             POST
+Read	                                              GET
+Update	                                    PUT or PATCH
+Delete	                                          DELETE
+
+How many types of binding?
+API- 
+SERVICES? -
+DataBinding-
+
+why we use param?

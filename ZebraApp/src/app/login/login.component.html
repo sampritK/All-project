@@ -1,0 +1,43 @@
+<!-- <div class="login-page">
+    
+    <div class="form" >
+        
+      <form class="register-form">
+        <input type="text" placeholder="name" [(ngModel)]="signupObj.userName">
+        <input type="password" placeholder="password" [(ngModel)]="signupObj.password">
+        <input type="email" placeholder="email address" [(ngModel)]="signupObj.email" >
+        <button (click)="onSignUp()">create</button>
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+      </form>
+      <form class="login-form" >
+        <input type="text" placeholder="username" [(ngModel)]="loginObj.userName">
+        <input type="password" placeholder="password" [(ngModel)]="loginObj.password">
+        <button (click)="onLogin()">login</button>
+        <p class="message">Not registered? <a href="#">Create an account</a></p>
+      </form>
+    </div>
+  </div> -->
+
+
+  <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form >
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" [(ngModel)]="signupObj.userName">
+					<input type="email" name="email" placeholder="Email" [(ngModel)]="signupObj.email">
+					<input type="password" name="pswd" placeholder="Password" [(ngModel)]="signupObj.password">
+					<button (click)="onSignUp()">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" [(ngModel)]="loginObj.userName">
+					<input type="password" name="password" placeholder="Password" [(ngModel)]="loginObj.password">
+					<button (click)="onLogin()">Login</button>
+				</form>
+			</div>
+	</div>

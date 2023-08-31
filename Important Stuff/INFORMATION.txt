@@ -1,0 +1,66 @@
+------Reactive Forms-------
+
+*Design and handle the form and the data
+*Reactive forms are a way to create forms in Angular 
+application.
+* we will need to import ReactiveFormsModule in our
+app module
+*very flexible and allows users to define,devlop complex
+requirements of forms
+*Reactive forms are only for "complex" application
+
+-------Reactive Forms-----
+-formControl
+-FormGroup
+-Form Builder
+------Reactive Forms-------
+         form
+            Elements
+               Input -> formControl
+               Textarea
+               buttons
+               checkbox
+               radio
+               select
+               Image
+ formGroup
+  * Each elements is a formControl
+  * when one or more formcontrol are grouped together 
+we call it formgroup.
+FormBuilder
+  - its an obstraction layer which makes it easy to
+  design and built our form.
+ *formBuilder has three things that-
+  -formGroup - we can't use individually
+  -formArray - 
+  -formControl- we can't use it separatly
+     - FormBuilder-> break down your form into smaller
+    pieces of code
+     -> which is reusable / simple to maintain
+
+---------Reactive form-set form Value--------
+
+I failed to understand the value of time during 
+my early 
+days of college life and now I feel upset about.
+
+Because you found a better match.
+
+This job interview is about matching what your company needs,
+ and what I want. Currently I'm very interested by the
+ opportunities you have to offer and I think we would
+ work very well together. If your company finds a 
+better match and you decide to hire them, 
+well I wish both of you the best of luck. 
+I hope to meet again in future endeavours.
+
+
+
+
+
+
+
+
+
+
+

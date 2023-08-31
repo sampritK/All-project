@@ -1,0 +1,25 @@
+<p>client works!</p>
+
+
+
+<div style="display: flex;flex-direction: column;align-items: center;">
+
+<table>
+    <th>clientId</th>
+    <th>FirstName</th>
+    <th>lastName</th>
+    <tr *ngFor="let client of clientList">
+       <td>{{ client.clientId }}</td> 
+       <td>{{ client.firstName }}</td> 
+       <td>{{ client.lastName }}</td> 
+       <td><a [routerLink]="['/edit',client.clientId]">Edit</a>  | <a [routerLink]="['/delete',client.clientId]">Delete</a></td>
+    </tr>
+</table>
+</div>
+<a routerLink="/admin">Leave</a>
+
+<p> {{ users | json }} </p>
+
+<ul *ngFor="let user of users">
+   <li> {{ user.name}} </li> 
+</ul> 

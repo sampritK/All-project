@@ -1,0 +1,17 @@
+
+.username {
+    min-width: 300px;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.action-link{
+    padding: 10px;
+}
+
+.list-users{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row; 
+}

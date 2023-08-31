@@ -1,0 +1,132 @@
+<!-- How to find duplicate elements in array in javascript -->
+
+<script>
+    var arrNumber=[1,2,8,2,5,8]
+    var duplicates=arrNumber.filter((ele,index,arr)=>arr.indexOf(ele) !==index)
+    console.log(duplicates);
+</script>
+
+<!--How to find Max and Min value in a given Array in javascript-->
+
+<script>
+    var arrNumber=[1,9,65,88,89]
+    var minFunction=(arr)=>{
+       return arr.reduce(function(pre,cur){
+        return pre<cur?pre:cur 
+       })
+    }
+    console.log(minFunction(arrNumber))
+</script>
+
+ <!-- what is difference between '==' and '===' in javascrip? -->
+
+
+ <script>
+    var x=7;
+    var y='7'
+    console.log(x===y)
+ </script>
+
+ <!-- How to find Second Largest value, and remove First largest value in array? -->
+ <script>
+    const intArray=[2,8,9,7]
+    const largestValue=(arr)=>{
+        firstLargestValue=Math.max(...arr)
+        index=arr.indexOf(firstLargestValue)
+        arr.splice(index,1)
+        secondLargestValue=Math.max(...arr)
+        return(secondLargestValue)
+    }
+    console.log(largestValue(intArray))
+ </script>
+
+<!-- What is difference Between filter() and Find() Method in javascript -->
+<script>
+    const empArr = [
+        { name: "king", age: 42},
+        { name: "samprit", age: 70},
+        { name: "ali", age: 22},
+        { name: "ram", age: 17},
+        { name: "prabhu", age: 25},
+        { name: "gyana", age: 22},
+        { name: "jay", age: 25},
+        { name: "nilesh", age: 26},
+        { name: "sam", age: 27},
+    ];
+    const findItem=empArr.find((item)=>{
+       return item.age>30 
+    })
+    console.log(findItem);
+</script>
+
+<!-- How to Find the missing number in a given integer array of 1 to 10 -->
+  <script>
+    var arrNum=[1,2,3,4,5,6,9,10]
+    const missArray=[]
+    const missingValue=(arr)=>{
+  const minValue=Math.min(...arr)
+  const maxValue=Math.max(...arr)
+  for(let i=minValue;i<maxValue;i++) {
+    if(arr.indexOf(i)<0){
+        missArray.push(i)
+    }
+    
+  }  
+  return(missArray)   
+    }
+    console.log(missingValue(arrNum))
+  </script>
+
+  <!-- How to Find even or Odd number in a given array in javascript -->
+  <script>
+    const numbers=[1,2,3,8,9,12,16]
+    const even=numbers.filter((item)=>{
+        return item%2===0
+    })
+    
+    const Odd=numbers.filter((item)=>{
+        return item%2==!0
+    })
+    console.log(Odd);
+  </script>
+  <!-- How to Find the sum of all elements in a given arry[] in javascript? -->
+  <script>
+    var arrNum=[1,9,6,4]
+    var sumOfNumber=(arr)=>{
+   return arr.reduce((pre,cur)=>{
+    return pre+cur
+   })     
+    }
+    console.log(sumOfNumber(arrNum));
+  </script>
+  <!--How to Find Factorial(n!) of a given number in javascript?  -->
+  <script>
+    const inputNum=prompt("please enter number")
+    var fact=1;
+    if(inputNum<0){
+      console.log(`factorial of ${inputNum} is not possible`)
+    }else{
+      for(let i=1;i<=inputNum;i++){
+        fact=fact*i
+      }
+      console.log(`factorial of ${inputNum} is ${fact}`)
+    }
+  </script>
+
+  <script>
+    (function(){
+      var a=b=3
+    })();
+
+    console.warn(typeof a)
+    console.warn(typeof b)
+  </script>
+
+  <script>
+    function foo(){
+      return{
+        name: 'happy'
+      }
+    }
+    console.warn(foo)
+  </script>

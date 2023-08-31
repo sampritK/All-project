@@ -1,0 +1,31 @@
+------Nested FormArray--------
+
+*A nested form array refers to a scenario where 
+you have an array of form controls or form groups 
+within another form group. This allows you to handle 
+dynamic or repeating form fields.
+
+---------Component Communication-----------
+
+* you will be able to create generate componets 
+use them create child parent child reletionshp use
+input output directives use services and much more.
+
+what i will get to learn
+
+
+* 1. Learn how to create components
+     #Learn how to use different template
+     #Learn to use multiple style URls
+  
+  2. Learn how to use Component From other modules
+
+  3. Learn Communication between Components - using
+  @Input and @Output
+  
+  4. Angular component communication using "service"
+
+  5. Angular lifecycle hooks.
+
+
+ng add @angular/material

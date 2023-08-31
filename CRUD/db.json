@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "name": "samprit kanungo",
+      "email": "sampritkanungo43@gmail.com",
+      "city": "Seri Lingampally",
+      "pincode": 500032,
+      "phone": 9988899977,
+      "id": 2
+    },
+    {
+      "name": "sgffy",
+      "email": "sampritkanungo43@gmail.com",
+      "city": "Seri Lingampally",
+      "pincode": 500032,
+      "phone": 9346401163,
+      "id": 3
+    },
+    {
+      "name": "sgffy",
+      "email": "sampritkanungo43@gmail.com",
+      "city": "Seri Lingampally",
+      "pincode": 500032,
+      "phone": 9346401163,
+      "id": 4
+    },
+    {
+      "name": "samzihhj",
+      "email": "sampritkanungo43@gmail.com",
+      "city": "Seri Lingampally",
+      "pincode": 500032,
+      "phone": 9346401163,
+      "id": 5
+    },
+    {
+      "name": "jjuhdu",
+      "email": "happykanungo93@gmail.com",
+      "city": "Kendrapara",
+      "pincode": 754213,
+      "phone": 6371316558,
+      "id": 6
+    }
+  ]
+}

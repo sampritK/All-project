@@ -1,0 +1,53 @@
+-----------------Dependency injection-----------------
+
+* its an important application design pattern.
+
+* Angular has its own DI framework,which is typically
+used in the design of Angular application to increase
+their effiviency and modularity.
+
+--------------------Angular Services------------------
+
+* Services allows us to create reusable common shared
+functionality between various modules and components
+
+* Services are singleton which means they have only
+single instance 
+* Services are injected into application using 
+dependency injection mechanism 
+* we need to create and inject services in components
+where we want to use them
+* Services are an abstraction layer or process layer 
+which consists of our application business logic
+* Services are commonly used for making HTTP request to
+our endpoints APIs to request and receive the response
+* A services can have value,methods or a combination of
+both
+--Service uses--->
+  Imported the service into the component->
+  ->Create an instance in the constructor ->
+  ->call the method using the instance of the service
+  then bind
+-----------HttpClient---> HyperText Transfer Protocol
+-> Standard HTTP Methods
+ -> Http Methods
+*get()->get means we are requesting the resours from 
+the api 
+*post() thats means we are trying to send the data
+*put() that means we are trying to update an existing
+resource
+*delete() a resource by sending that information to the
+api
+*head() we can use which are cofigured as http methods
+when we send the data to the back end
+
+---------Benefits of HttpClient--------
+1. HttpClient includes Observable APIs
+2. HttpClient can have the HTTP Headers in options
+
+ng add @angular/material
+
+
+
+
+
